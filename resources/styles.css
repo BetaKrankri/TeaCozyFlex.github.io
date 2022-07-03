@@ -33,6 +33,7 @@ h3, p {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    z-index: 100;
 }
 
 /*Logo img */
