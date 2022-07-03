@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+*{
+    box-sizing: border-box;
+}
+
+h2, h4, h3, p{
+    background-color: black;
+    color: seashell;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+}
+h3, p {
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+/*--------------------NavBar */
+.navbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Logo img */
+#logo {
+    height: 50px;
+    margin: 10px auto;
+    margin-left: 10px;
+}
+
+/*Breadcrumb */
+.breadc {
+    padding: 0px;
+}
+
+.breadc li {
+    display: inline;
+    margin: auto 10px;
+}
+
+.breadc li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.breadc li a:hover {
+    color: rgb(149, 125, 108);
+}
+
+
+.main {
+    /* border: 1px solid cyan; */
+    margin: auto;
+    margin-top: 70px;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: 0;
+    width: 100%;
+}
+/*--------------------Mission Card */
+.mission {
+    height: 700px;
+    max-width: 1200px;
+    background-image: url("../resources/img-mission-background.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*--------------------Featured Card */
+.featured {
+    margin: 60px 0;
+    max-width: 1000px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery .picture {
+    margin: 15px;
+}
+.picture img {
+    width: 300px;
+    height: 200px;
+} 
+
+/*--------------------Loations Card */
+.locations {
+    background-image: url("../resources/img-locations-background.jpg");
+    min-height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.locations h2{
+    background-color: transparent;
+    color:rgb(194, 194, 194);
+    padding: 25px 0;
+    width: 100%;
+}
+
+.locations .block {
+    opacity: .9;
+    background-color: black;
+    width: 300px;
+    margin: 20px 20px;
+}
+
+/*--------------------Footer */
+.footer {
+    height: 200px;
+    text-align: center;
+}
+
+/* copyright */
+.cr {
+    margin-left: 20px;
+}
